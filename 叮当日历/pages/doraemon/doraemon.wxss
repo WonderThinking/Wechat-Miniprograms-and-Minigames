@@ -1,0 +1,74 @@
+.page {
+  position: relative;
+  border: 2rpx solid white;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.child {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  background: white;
+}
+
+button::after {
+  border: none;
+}
+
+.plain {
+  border: none;
+  border-color: transparent;
+}
+
+button[plain] {
+  border: 0;
+}
+
+.text {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.text2 {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  color: black;
+  font-size: 18px;
+  text-align: right;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: skyblue;
+}

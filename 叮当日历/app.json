@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/doraemon/doraemon",
+    "pages/greece/greece"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#87CEEB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/doraemon/doraemon",
+        "text": "每日叮当",
+        "iconPath": "images/icon_doraemon1.png",
+        "selectedIconPath": "images/icon_doraemon2.png"
+      },
+      {
+        "pagePath": "pages/greece/greece",
+        "text": "那片海",
+        "iconPath": "images/icon_sea1.png",
+        "selectedIconPath": "images/icon_sea2.png"
+      }
+    ]
+  }
+}

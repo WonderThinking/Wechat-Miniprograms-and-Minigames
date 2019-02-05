@@ -1,0 +1,23 @@
+<view class="page" style="height:{{second_height}}px;width:100%;">
+  <image class="image" mode="widthFix" src="{{backgroundImage}}" />
+
+  <modal title="哆啦A梦对你说" hidden="{{modalHidden}}" bindconfirm="modalConfirm" confirm-text="{{modalSuitable}}" no-cancel>
+    <image class="image" mode="widthFix" src="{{modalImage}}" />
+    <text>
+    {{modalLogion}}
+  </text>
+  </modal>
+  <button class="child" bindtap="modalTap" plain="true"></button>
+
+  <text class="text2">{{sayHello}}
+    
+    {{timeYMD}}
+    {{lunarMD}}
+    {{html.data.week=="Monday"?"星期一":""}}{{html.data.week=="Tuesday"?"星期二":""}}{{html.data.week=="Wednesday"?"星期三":""}}{{html.data.week=="Thursday"?"星期四":""}}{{html.data.week=="Friday"?"星期五":""}}{{html.data.week=="Saturday"?"星期六":""}}{{html.data.week=="Sunday"?"星期日":""}}
+</text>
+
+  <text class="text3">
+哆啦A梦永远会在你需要的时候陪伴你！
+</text>
+
+</view>
